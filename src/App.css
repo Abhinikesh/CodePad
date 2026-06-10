@@ -182,3 +182,34 @@
     border-right-color: var(--border);
   }
 }
+
+@keyframes splash-pulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 15px rgba(99, 102, 241, 0.2));
+  }
+  50% {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 25px rgba(99, 102, 241, 0.4));
+  }
+}
+
+@keyframes progress-fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.splash-logo {
+  animation: splash-pulse 2s infinite ease-in-out;
+}
+
+.splash-progress-bar {
+  height: 2px;
+  background: linear-gradient(to right, #6366f1, #38bdf8);
+  border-radius: 9999px;
+  animation: progress-fill 1.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
