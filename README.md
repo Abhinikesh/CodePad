@@ -6,9 +6,9 @@
 
 ---
 
-## Screenshots
+## Screenshot
 
-![CodePad Home](https://raw.githubusercontent.com/Abhinikesh/CodePad/main/public/CodePad_Pic.png)
+<img src="https://raw.githubusercontent.com/Abhinikesh/CodePad/main/CodePad_Pic.png" alt="CodePad Home" width="900" style="border-radius: 12px; border: 1px solid #30363d;" />
 
 ---
 
