@@ -136,7 +136,7 @@ const Paste = () => {
                     </button>
                     <button
                       onClick={() => handleShare(paste)}
-                      className="p-2 text-gray-500 hover:text-purple-400 hover:bg-purple-500/10 rounded-lg transition-colors cursor-pointer"
+                      className="p-2 text-gray-500 hover:text-purple-400 hover:bg-sky-400/10 rounded-lg transition-colors cursor-pointer"
                       title="Share"
                     >
                       <FiShare2 className="w-4 h-4" />

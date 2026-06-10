@@ -80,7 +80,7 @@ const Home = () => {
           />
           <button
             onClick={createPaste}
-            className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-indigo-500/25 whitespace-nowrap cursor-pointer"
+            className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-sky-500 hover:from-sky-400 hover:to-sky-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-indigo-500/25 whitespace-nowrap cursor-pointer"
           >
             {pasteID ? 'Update My Paste' : 'Create My Paste'}
           </button>
