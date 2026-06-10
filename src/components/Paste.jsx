@@ -182,7 +182,7 @@ const Paste = () => {
                 <div className="flex items-center gap-2 mt-3 text-gray-600 text-xs">
                   <FiCalendar className="w-3 h-3" />
                   <span>
-                    {new Date(paste.createdAt).toLocaleDateString('en-US', {
+                    {new Date(paste.created_at).toLocaleDateString('en-US', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric'

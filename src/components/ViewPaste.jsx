@@ -105,7 +105,7 @@ const ViewPaste = () => {
           <div className="px-4 py-2 bg-[#1a1a2e] border-t border-[#2a2a40] flex items-center justify-between text-xs text-gray-600 font-mono">
             <span>{lines.length} line{lines.length !== 1 ? 's' : ''}</span>
             <span>
-              {new Date(paste.createdAt).toLocaleDateString('en-US', {
+              {new Date(paste.created_at).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric'

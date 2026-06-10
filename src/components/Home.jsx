@@ -44,7 +44,6 @@ const Home = () => {
       title,
       content: value,
       _id: pasteID || Date.now().toString(36),
-      createdAt: new Date().toISOString()
     }
 
     if (pasteID) {
