@@ -36,7 +36,3 @@
 | Deployment | Vercel |
 
 ---
-
-## License
-
-MIT © [Abhinikesh](https://github.com/Abhinikesh)
